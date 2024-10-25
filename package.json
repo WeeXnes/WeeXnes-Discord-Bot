@@ -9,7 +9,9 @@
     "start:prod": "node dist/index.js",
     "build": "tsc",
     "watch": "tsc -w",
-    "installFetch": "npm install node-fetch@2"
+    "installFetch": "npm install node-fetch@2",
+    "dry-security-check": "npm audit --dry-run",
+    "fix-security-vulnerabilities": "npm audit fix"
   },
   "author": "weexnes",
   "license": "ISC",
